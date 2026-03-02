@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import '../../app/theme/app_colors.dart';
 import '../../app/theme/app_dimensions.dart';
 import '../../core/widgets/gradient_background.dart';
-import '../../core/widgets/custom_button.dart';
 import '../../core/utils/haptic_utils.dart';
 import 'excuse_result_controller.dart';
 import 'widgets/excuse_card.dart';

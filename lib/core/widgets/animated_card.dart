@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import '../theme/app_dimensions.dart';
 
 class AnimatedCard extends StatelessWidget {
   final Widget child;

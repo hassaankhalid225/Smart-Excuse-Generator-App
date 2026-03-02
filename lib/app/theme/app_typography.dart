@@ -23,7 +23,7 @@ class AppTypography {
         color: AppColors.textPrimary,
       );
 
-  static TextStyle get bodySecondary => GoogleFonts.dmSans(
+  static TextStyle get bodySmall => GoogleFonts.dmSans(
         fontSize: 14,
         fontWeight: FontWeight.normal,
         color: AppColors.textSecondary,

@@ -18,24 +18,24 @@ class AppTheme {
             fontWeight: FontWeight.bold,
           ),
         ),
-        cardTheme: CardTheme(
+        cardTheme: const CardThemeData(
           color: AppColors.card,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-          ),
           elevation: 4,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(20)),
+          ),
         ),
         textTheme: TextTheme(
           displayLarge: AppTypography.display,
           headlineMedium: AppTypography.heading,
           bodyLarge: AppTypography.body,
-          bodySmall: AppTypography.bodySecondary,
+          bodyMedium: AppTypography.body,
+          bodySmall: AppTypography.bodySmall,
         ),
         colorScheme: const ColorScheme.dark(
           primary: AppColors.primaryAccent,
           secondary: AppColors.secondaryAccent,
           surface: AppColors.surface,
-          background: AppColors.background,
         ),
       );
 }
